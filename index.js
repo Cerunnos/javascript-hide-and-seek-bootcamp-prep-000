@@ -13,4 +13,5 @@ function increaseRankBy(n){
 }
 function deepestChild(){
   let currentLevel=document.getElementByID('grand-node')
+  let nextLevel=currentlevel.children
 }
