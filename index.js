@@ -13,10 +13,10 @@ function increaseRankBy(n){
 }
 function deepestChild(){
   let currentLevel=document.getElementById('grand-node')
-  let nextLevel=currentlevel.children
+  let nextLevel=currentlevel.children[0]
   while(nextLevel){
     currentLevel=nextLevel
-    nextLevel=currentLevel.children
+    nextLevel=currentLevel.children[0]
   }
   return currentLevel
 }
