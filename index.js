@@ -11,4 +11,6 @@ function increaseRankBy(n){
     rl[i].innerHTML=(i+n).toString()
   }
 }
-function deepestChild()
+function deepestChild(){
+  let level=document.getElementByID('grand-node')
+}
