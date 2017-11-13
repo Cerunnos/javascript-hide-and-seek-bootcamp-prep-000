@@ -11,3 +11,4 @@ function increaseRankBy(n){
     rl[i].innerHTML=(i+n).toString()
   }
 }
+function deepestChild()
