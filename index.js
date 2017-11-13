@@ -18,5 +18,6 @@ function deepestChild(){
     currentLevel=nextLevel
     nextLevel=currentLevel.children[0]
   }
+
   return currentLevel
 }
